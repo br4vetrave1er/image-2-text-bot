@@ -1,5 +1,4 @@
 asgiref==3.8.1
-asyncio==3.4.3
 certifi==2024.8.30
 charset-normalizer==3.4.0
 colorama==0.4.6
