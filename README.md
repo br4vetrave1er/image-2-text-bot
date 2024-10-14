@@ -43,9 +43,6 @@ The **Text-to-Image Generator** is a web application that allows users to genera
 
 - Python 3.x
 - pip
-- Django
-- torch
-- transformers
 
 ### Steps to Set Up for local deployment
 
