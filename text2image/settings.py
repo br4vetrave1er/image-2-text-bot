@@ -122,7 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Define the directory where static files will be collected when you run 'collectstatic' (for production)
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', "static")
 
 print(os.path.join(BASE_DIR, 'static'))
 # Define additional locations for static files (like your 'static' folder in the app)
