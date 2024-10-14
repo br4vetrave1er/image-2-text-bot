@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unleash Your Creativity</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/homepage.css' %}"
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-text">
+            <h1>Unleash Your Creativity with Text-to-Image</h1>
+            <p>Turn your words into stunning visuals and explore the power of AI-driven creativity!</p>
+            <a href="{% url 'chatPage' %}">
+                <button class="cta-btn">Get Started</button>
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="container my-5">
+        <div class="row text-center">
+            <div class="col-lg-4">
+                <h3>Create Beautiful Images</h3>
+                <p>Simply enter your creative prompts and let our AI generate amazing artwork based on your descriptions.</p>
+            </div>
+            <div class="col-lg-4">
+                <h3>Showcase Your Creativity</h3>
+                <p>Share your unique creations with the world and inspire others to dive into the world of AI-powered art.</p>
+            </div>
+            <div class="col-lg-4">
+                <h3>Explore Endless Possibilities</h3>
+                <p>There are no limits to what you can create. Let your imagination run wild and generate the visuals of your dreams.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Text-to-Image Creativity Platform. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
