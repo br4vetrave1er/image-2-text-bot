@@ -8,6 +8,7 @@ The **Text-to-Image Generator** is a web application that allows users to genera
 
 ## live prototype
    [text-2-image](https://image-2-text-bot.vercel.app/)
+   **_NOTE:_** If you get "unable to load" for every query try again after refreshing the page
 
 ## black-forest-labs/FLUX.1-schnell
    FLUX can generate comprehensive images from verbal prompts by understanding the underlying distribution of images in a particular dataset, based on the 
